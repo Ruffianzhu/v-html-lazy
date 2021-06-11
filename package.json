@@ -1,0 +1,57 @@
+{
+  "name": "v-html-lazy",
+  "version": "1.0.0",
+  "description": "A custom lazy load instruction",
+  "author": "2574401886@qq.com",
+  "main": "dist/v-html-lazy.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ruffianzhu/v-html-lazy.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name v-html-lazy src/index.js && cp dist/v-html-lazy.umd.min.js dist/v-html-lazy.js",
+    "lint": "vue-cli-service lint"
+  },
+  "keywords": [
+    "vue",
+    "v-html",
+    "lazy",
+    "v-html-lazy"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.9.1",
+    "eslint": "^7.28.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "version": "^0.1.2",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "files": [
+    "dist/v-html-lazy.js"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
