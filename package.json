@@ -2,11 +2,11 @@
   "name": "v-html-lazy",
   "version": "1.0.0",
   "description": "A custom lazy load instruction",
-  "author": "2574401886@qq.com",
+  "author": "mushuiyu <2574401886@qq.com>",
   "main": "dist/v-html-lazy.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ruffianzhu/v-html-lazy.git"
+    "url": "git+https://github.com/Ruffianzhu/v-html-lazy.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
